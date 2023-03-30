@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="13" time="151.97">
+    <testcase classname="Verify User get any help with NHS costs online service" name="Customer lives in Ireland" time="7.965">
+        <system-out>
+            <![CDATA[Given Open the Cost Checker tool url........................................passed
+And Click on Analytics Cookies Accept button................................passed
+And Click on Start Now button...............................................passed
+Given Customer is living in Country as Northern_Ireland.....................passed
+Then Get outcome and verify customer receive any help or not with NHS cost pass parameter as NA and NA and NA.passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Verify User get any help with NHS costs online service" name="Customer lives in England/Wales/Scotland and don't claim any benefits or tax credit and don't live in home care and enter all other fields randomly" time="14.242">
+        <system-out>
+            <![CDATA[Given Open the Cost Checker tool url........................................passed
+And Click on Analytics Cookies Accept button................................passed
+And Click on Start Now button...............................................passed
+Given Customer is living in Country as England..............................passed
+When I fill the form as GP practice in Scotland or live in Highland and Island.passed
+And Select Country is your dental practise in...............................passed
+And Enter Date of Birth.....................................................passed
+And Enter Details about partner.............................................passed
+And Enter Details about claim as No and universal credit as No..............passed
+And Enter Details about pregnant as Yes.....................................passed
+And Enter Details about injury or illness in armed forces as Yes............passed
+And Enter Details about diabetes as Yes and England.........................passed
+And Enter Details about care home as No and No..............................passed
+And Enter Details about savings or investment...............................passed
+Then Get outcome and verify customer receive any help or not with NHS cost pass parameter as No and No and No.passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Verify User get any help with NHS costs online service" name="Customer lives in England/Wales/Scotland and don't claim any benefits or tax credit and don't live in home care and enter all other fields randomly 2" time="14.247">
+        <system-out>
+            <![CDATA[Given Open the Cost Checker tool url........................................passed
+And Click on Analytics Cookies Accept button................................passed
+And Click on Start Now button...............................................passed
+Given Customer is living in Country as England..............................passed
+When I fill the form as GP practice in Scotland or live in Highland and Island.passed
+And Select Country is your dental practise in...............................passed
+And Enter Date of Birth.....................................................passed
+And Enter Details about partner.............................................passed
+And Enter Details about claim as No and universal credit as No..............passed
+And Enter Details about pregnant as No......................................passed
+And Enter Details about injury or illness in armed forces as Yes............passed
+And Enter Details about diabetes as Yes and England.........................passed
+And Enter Details about care home as Yes and No.............................passed
+And Enter Details about savings or investment...............................passed
+Then Get outcome and verify customer receive any help or not with NHS cost pass parameter as No and No and No.passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Verify User get any help with NHS costs online service" name="Customer lives in England/Wales/Scotland and don't claim any benefits or tax credit and don't live in home care and enter all other fields randomly 3" time="14.539">
+        <system-out>
+            <![CDATA[Given Open the Cost Checker tool url........................................passed
+And Click on Analytics Cookies Accept button................................passed
+And Click on Start Now button...............................................passed
+Given Customer is living in Country as Wales................................passed
+When I fill the form as GP practice in Scotland or live in Highland and Island.passed
+And Select Country is your dental practise in...............................passed
+And Enter Date of Birth.....................................................passed
+And Enter Details about partner.............................................passed
+And Enter Details about claim as No and universal credit as No..............passed
+And Enter Details about pregnant as Yes.....................................passed
+And Enter Details about injury or illness in armed forces as Yes............passed
+And Enter Details about diabetes as Yes and Wales...........................passed
+And Enter Details about care home as No and No..............................passed
+And Enter Details about savings or investment...............................passed
+Then Get outcome and verify customer receive any help or not with NHS cost pass parameter as No and No and No.passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Verify User get any help with NHS costs online service" name="Customer lives in England/Wales/Scotland and don't claim any benefits or tax credit and don't live in home care and enter all other fields randomly 4" time="13.529">
+        <system-out>
+            <![CDATA[Given Open the Cost Checker tool url........................................passed
+And Click on Analytics Cookies Accept button................................passed
+And Click on Start Now button...............................................passed
+Given Customer is living in Country as Wales................................passed
+When I fill the form as GP practice in Scotland or live in Highland and Island.passed
+And Select Country is your dental practise in...............................passed
+And Enter Date of Birth.....................................................passed
+And Enter Details about partner.............................................passed
+And Enter Details about claim as No and universal credit as No..............passed
+And Enter Details about pregnant as No......................................passed
+And Enter Details about injury or illness in armed forces as Yes............passed
+And Enter Details about diabetes as Yes and Wales...........................passed
+And Enter Details about care home as Yes and No.............................passed
+And Enter Details about savings or investment...............................passed
+Then Get outcome and verify customer receive any help or not with NHS cost pass parameter as No and No and No.passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Verify User get any help with NHS costs online service" name="Customer lives in England/Wales/Scotland and don't claim any benefits or tax credit and don't live in home care and enter all other fields randomly 5" time="11.496">
+        <system-out>
+            <![CDATA[Given Open the Cost Checker tool url........................................passed
+And Click on Analytics Cookies Accept button................................passed
+And Click on Start Now button...............................................passed
+Given Customer is living in Country as Scotland.............................passed
+When I fill the form as GP practice in Scotland or live in Highland and Island.passed
+And Select Country is your dental practise in...............................passed
+And Enter Date of Birth.....................................................passed
+And Enter Details about partner.............................................passed
+And Enter Details about claim as No and universal credit as No..............passed
+And Enter Details about pregnant as No......................................passed
+And Enter Details about injury or illness in armed forces as No.............passed
+And Enter Details about diabetes as NA and Scotland.........................passed
+And Enter Details about care home as No and No..............................passed
+And Enter Details about savings or investment...............................passed
+Then Get outcome and verify customer receive any help or not with NHS cost pass parameter as No and No and No.passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Verify User get any help with NHS costs online service" name="Customer lives in England/Wales/Scotland and don't claim any benefits or tax credit and don't live in home care and enter all other fields randomly 6" time="13.145">
+        <system-out>
+            <![CDATA[Given Open the Cost Checker tool url........................................passed
+And Click on Analytics Cookies Accept button................................passed
+And Click on Start Now button...............................................passed
+Given Customer is living in Country as Scotland.............................passed
+When I fill the form as GP practice in Scotland or live in Highland and Island.passed
+And Select Country is your dental practise in...............................passed
+And Enter Date of Birth.....................................................passed
+And Enter Details about partner.............................................passed
+And Enter Details about claim as No and universal credit as No..............passed
+And Enter Details about pregnant as Yes.....................................passed
+And Enter Details about injury or illness in armed forces as Yes............passed
+And Enter Details about diabetes as NA and Scotland.........................passed
+And Enter Details about care home as Yes and No.............................passed
+And Enter Details about savings or investment...............................passed
+Then Get outcome and verify customer receive any help or not with NHS cost pass parameter as No and No and No.passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Verify User get any help with NHS costs online service" name="Customer lives in England/Wales/Scotland and don't claim any benefits or tax credit and don't live in home care and enter all other fields randomly 7" time="9.518">
+        <system-out>
+            <![CDATA[Given Open the Cost Checker tool url........................................passed
+And Click on Analytics Cookies Accept button................................passed
+And Click on Start Now button...............................................passed
+Given Customer is living in Country as Scotland.............................passed
+When I fill the form as GP practice in Scotland or live in Highland and Island.passed
+And Select Country is your dental practise in...............................passed
+And Enter Date of Birth.....................................................passed
+And Enter Details about partner.............................................passed
+And Enter Details about claim as Yes and universal credit as No.............passed
+Then Get outcome and verify customer receive any help or not with NHS cost pass parameter as Yes and No and No.passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Verify User get any help with NHS costs online service" name="Customer lives in England/Wales/Scotland and don't claim any benefits or tax credit and don't live in home care and enter all other fields randomly 8" time="10.152">
+        <system-out>
+            <![CDATA[Given Open the Cost Checker tool url........................................passed
+And Click on Analytics Cookies Accept button................................passed
+And Click on Start Now button...............................................passed
+Given Customer is living in Country as England..............................passed
+When I fill the form as GP practice in Scotland or live in Highland and Island.passed
+And Select Country is your dental practise in...............................passed
+And Enter Date of Birth.....................................................passed
+And Enter Details about partner.............................................passed
+And Enter Details about claim as Yes and universal credit as No.............passed
+Then Get outcome and verify customer receive any help or not with NHS cost pass parameter as Yes and No and No.passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Verify User get any help with NHS costs online service" name="Customer lives in England/Wales/Scotland and don't claim any benefits or tax credit and don't live in home care and enter all other fields randomly 9" time="9.142">
+        <system-out>
+            <![CDATA[Given Open the Cost Checker tool url........................................passed
+And Click on Analytics Cookies Accept button................................passed
+And Click on Start Now button...............................................passed
+Given Customer is living in Country as Wales................................passed
+When I fill the form as GP practice in Scotland or live in Highland and Island.passed
+And Select Country is your dental practise in...............................passed
+And Enter Date of Birth.....................................................passed
+And Enter Details about partner.............................................passed
+And Enter Details about claim as Yes and universal credit as No.............passed
+Then Get outcome and verify customer receive any help or not with NHS cost pass parameter as Yes and No and No.passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Verify User get any help with NHS costs online service" name="Customer lives in England/Wales/Scotland and don't claim any benefits or tax credit and don't live in home care and enter all other fields randomly 10" time="11.263">
+        <system-out>
+            <![CDATA[Given Open the Cost Checker tool url........................................passed
+And Click on Analytics Cookies Accept button................................passed
+And Click on Start Now button...............................................passed
+Given Customer is living in Country as Scotland.............................passed
+When I fill the form as GP practice in Scotland or live in Highland and Island.passed
+And Select Country is your dental practise in...............................passed
+And Enter Date of Birth.....................................................passed
+And Enter Details about partner.............................................passed
+And Enter Details about claim as Yes and universal credit as Yes............passed
+Then Get outcome and verify customer receive any help or not with NHS cost pass parameter as Yes and Yes and No.passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Verify User get any help with NHS costs online service" name="Customer lives in England/Wales/Scotland and don't claim any benefits or tax credit and don't live in home care and enter all other fields randomly 11" time="10.457">
+        <system-out>
+            <![CDATA[Given Open the Cost Checker tool url........................................passed
+And Click on Analytics Cookies Accept button................................passed
+And Click on Start Now button...............................................passed
+Given Customer is living in Country as England..............................passed
+When I fill the form as GP practice in Scotland or live in Highland and Island.passed
+And Select Country is your dental practise in...............................passed
+And Enter Date of Birth.....................................................passed
+And Enter Details about partner.............................................passed
+And Enter Details about claim as Yes and universal credit as Yes............passed
+Then Get outcome and verify customer receive any help or not with NHS cost pass parameter as Yes and Yes and No.passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Verify User get any help with NHS costs online service" name="Customer lives in England/Wales/Scotland and don't claim any benefits or tax credit and don't live in home care and enter all other fields randomly 12" time="11.685">
+        <system-out>
+            <![CDATA[Given Open the Cost Checker tool url........................................passed
+And Click on Analytics Cookies Accept button................................passed
+And Click on Start Now button...............................................passed
+Given Customer is living in Country as Wales................................passed
+When I fill the form as GP practice in Scotland or live in Highland and Island.passed
+And Select Country is your dental practise in...............................passed
+And Enter Date of Birth.....................................................passed
+And Enter Details about partner.............................................passed
+And Enter Details about claim as Yes and universal credit as Yes............passed
+Then Get outcome and verify customer receive any help or not with NHS cost pass parameter as Yes and Yes and No.passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>

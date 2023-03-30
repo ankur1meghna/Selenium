@@ -1,0 +1,6 @@
+stepdefinition\Hooks.class
+stepdefinition\CheckerTool.class
+page\ConditionsPage.class
+invocation\BrowserInvoke.class
+runner\TestRunner.class
+utility\CommonUtility.class

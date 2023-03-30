@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html>
+<head>
+  
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery.tablesorter.min.js"></script>
+<script type="text/javascript" src="js/Chart.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css"/>
+<link rel="stylesheet" href="css/reporting.css" type="text/css"/>
+<link rel="stylesheet" href="css/font-awesome.min.css"/>
+<link rel="shortcut icon" href="images/favicon.png"/>
+
+<script type="text/javascript">
+$(document).ready(function() {
+    // this will tell tablesorter to try looking for the data-value attribute
+    // if present, it'll sort by that instead
+    // otherwise, it'll sort by the text content of the table cell
+    $("#tablesorter").tablesorter({
+        textAttribute: 'data-value',
+        // ignores the first row of the header, the 'scenario', 'steps', since
+        // sorting those doesn't make sense
+        selectorHeaders: '> thead tr:not(.dont-sort) th',
+        // use a stable sort
+        sortStable: true
+    });
+});
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+  
+<title>Cucumber-JVM Reports  - Steps Overview</title>
+
+</head>
+<body>
+
+<nav class="navbar navbar-default navbar-fixed-top" id="navigation">
+  <div class="container-fluid">
+    <div class="collapse navbar-collapse">
+      <p class="navbar-text navbar-left">Cucumber-JVM Report</p>
+      <ul class="nav navbar-nav navbar-right">
+                <li role="presentation" ><a href="feature-overview.html">Features</a></li>
+        <li role="presentation" ><a href="tag-overview.html">Tags</a></li>
+        <li role="presentation"     class="active" ><a href="step-overview.html">Steps</a></li>
+        <li role="presentation" ><a href="failures-overview.html">Failures</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="container-fluid" id="build-info">
+  <div class="row">
+    <div class="col-md-6 col-md-offset-1">
+      <table class="table table-bordered">
+        <thead>
+          <tr>
+            <th>Project</th>
+                          <th>Number</th>
+                        <th>Date</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="info">
+            <td>AnkurNhs</td>
+                          <td>11</td>
+                        <td>30 Mar 2023, 23:00</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+
+<div id="report-lead" class="container-fluid>
+  <div class="row">
+    <div class="col-md-10 col-md-offset-1">
+      <h2>Steps Statistics</h2>
+              <p>The following graph shows step statistics for this build. Below list is based on results.
+ step does not provide information about result then is not listed below.
+ Additionally @Before and @After are not counted because they are part of the scenarios, not steps.</p>
+          </div>
+  </div>
+</div>
+
+<div class="container-fluid" id="summary">
+  <div class="row">
+    <div class="col-md-10 col-md-offset-1">
+              <table id="tablesorter" class="stats-table table-hover">
+
+          <thead>
+            <tr class="header">
+              <th>Implementation</th>
+              <th>Occurrences</th>
+              <th>Duration</th>
+              <th>Average</th>
+              <th>Ratio</th>
+            </tr>
+          </thead>
+
+          <tbody>
+                          <tr>
+                <td class="location">stepdefinition.CheckerTool.click_on_analytics_cookies_accept_button()</td>
+                <td>13</td>
+                <td class="duration" data-value="1668515700">1s 668ms</td>
+                <td class="duration" data-value="128347361">128ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">stepdefinition.CheckerTool.click_on_start_now_button()</td>
+                <td>13</td>
+                <td class="duration" data-value="10041108600">10s 041ms</td>
+                <td class="duration" data-value="772392969">772ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">stepdefinition.CheckerTool.customer_is_living_in_country_as_country(java.lang.String)</td>
+                <td>13</td>
+                <td class="duration" data-value="12416443400">12s 416ms</td>
+                <td class="duration" data-value="955111030">955ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">stepdefinition.CheckerTool.enter_date_of_birth()</td>
+                <td>12</td>
+                <td class="duration" data-value="11959345200">11s 959ms</td>
+                <td class="duration" data-value="996612100">996ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">stepdefinition.CheckerTool.enter_details_about_care_home_as_permanent_and_careHome(java.lang.String,java.lang.String)</td>
+                <td>6</td>
+                <td class="duration" data-value="7014647900">7s 014ms</td>
+                <td class="duration" data-value="1169107983">1s 169ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">stepdefinition.CheckerTool.enter_details_about_claim_as_claimBenefits_and_universal_credit_as_taxCredit(java.lang.String,java.lang.String)</td>
+                <td>12</td>
+                <td class="duration" data-value="17478862600">17s 478ms</td>
+                <td class="duration" data-value="1456571883">1s 456ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">stepdefinition.CheckerTool.enter_details_about_diabetes_as_diabetes(java.lang.String,java.lang.String)</td>
+                <td>6</td>
+                <td class="duration" data-value="6917554000">6s 917ms</td>
+                <td class="duration" data-value="1152925666">1s 152ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">stepdefinition.CheckerTool.enter_details_about_injury_or_illness_in_armed_forces_as_war(java.lang.String)</td>
+                <td>6</td>
+                <td class="duration" data-value="5563285900">5s 563ms</td>
+                <td class="duration" data-value="927214316">927ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">stepdefinition.CheckerTool.enter_details_about_partner()</td>
+                <td>12</td>
+                <td class="duration" data-value="8520461700">8s 520ms</td>
+                <td class="duration" data-value="710038475">710ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">stepdefinition.CheckerTool.enter_details_about_pregnant_as_yorn(java.lang.String)</td>
+                <td>6</td>
+                <td class="duration" data-value="5502183000">5s 502ms</td>
+                <td class="duration" data-value="917030500">917ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">stepdefinition.CheckerTool.enter_details_about_savings_or_investment()</td>
+                <td>6</td>
+                <td class="duration" data-value="4906500100">4s 906ms</td>
+                <td class="duration" data-value="817750016">817ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">stepdefinition.CheckerTool.get_outcome_and_verify_customer_receive_any_help_or_not_with_nhs_cost_pass_parameter_as_claimBenefits_and_taxCredit_and_careHome(java.lang.String,java.lang.String,java.lang.String)</td>
+                <td>13</td>
+                <td class="duration" data-value="4118777200">4s 118ms</td>
+                <td class="duration" data-value="316829015">316ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">stepdefinition.CheckerTool.i_fill_the_form_as_gp_practice_in_scotland_or_live_in_highland_and_island()</td>
+                <td>12</td>
+                <td class="duration" data-value="9922349300">9s 922ms</td>
+                <td class="duration" data-value="826862441">826ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">stepdefinition.CheckerTool.open_the_cost_checker_tool_url()</td>
+                <td>13</td>
+                <td class="duration" data-value="10174043000">10s 174ms</td>
+                <td class="duration" data-value="782618692">782ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">stepdefinition.CheckerTool.select_country_is_your_dental_practise_in()</td>
+                <td>12</td>
+                <td class="duration" data-value="9505526200">9s 505ms</td>
+                <td class="duration" data-value="792127183">792ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">stepdefinition.Hooks.afterFirst(io.cucumber.java.Scenario)</td>
+                <td>13</td>
+                <td class="duration" data-value="3210769100">3s 210ms</td>
+                <td class="duration" data-value="246982238">246ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">stepdefinition.Hooks.beforeFirst(io.cucumber.java.Scenario)</td>
+                <td>13</td>
+                <td class="duration" data-value="21943503000">21s 943ms</td>
+                <td class="duration" data-value="1687961769">1s 687ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                      </tbody>
+
+          <tfoot class="total">
+            <tr>
+              <td>17</td>
+              <td>181</td>
+              <td class="duration">2m 30s 863ms</td>
+              <td class="duration">833ms</td>
+              <td>Totals</td>
+            </tr>
+          </tfoot>
+
+        </table>
+          </div>
+  </div>
+</div>
+
+
+<nav class="navbar navbar-default" id="footer">
+  <div class="container-fluid">
+    <p class="navbar-text navbar-right">
+        <small>generate Cucumber HTML reports via:&nbsp;</small>
+        <a class="navbar-link" href="https://github.com/jenkinsci/cucumber-reports-plugin">Jenkins Plugin</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/cucumber-reporting">Standalone</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/cucumber-sandwich">Sandwich</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/maven-cucumber-reporting">Maven</a>
+        &nbsp;&nbsp;
+    </p>
+  </div>
+</nav>
+
+</body>
+</html>
